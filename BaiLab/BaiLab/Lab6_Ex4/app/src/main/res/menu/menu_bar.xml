@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addFolder"
+        android:icon="@drawable/baseline_create_new_folder_24"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/addFile"
+        android:icon="@drawable/baseline_note_add_24"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+    <item android:title="Remove"
+        android:id="@+id/remove"/>
+    <item android:title="RemoveAll"
+        android:id="@+id/removeAll"/>
+</menu>

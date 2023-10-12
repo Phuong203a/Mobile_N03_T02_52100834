@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Bai2</string>
+    <dimen name="sp16">16sp</dimen>
+</resources>

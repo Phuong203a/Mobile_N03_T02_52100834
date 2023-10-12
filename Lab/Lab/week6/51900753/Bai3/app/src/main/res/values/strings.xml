@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Bai3</string>
+    <dimen name="dp20">20dp</dimen>
+</resources>
