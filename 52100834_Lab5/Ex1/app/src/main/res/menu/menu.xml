@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/itemCheck"
+    android:icon="@drawable/baseline_more_vert_24"
+    android:title="Check all/Uncheck all"/>
+    <item android:id="@+id/itemDeleteAll"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title="Delete all"/>
+    <item android:id="@+id/itemDeleteSelect"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title="Delete selected"/>
+</menu>

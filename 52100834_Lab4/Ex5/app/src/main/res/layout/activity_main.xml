@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonAddMore"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="103dp" />
+
+    <Button
+        android:id="@+id/buttonAddMore"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="61dp"
+        android:layout_toStartOf="@+id/btnRemove"
+        android:text="ADD 5 MORE USERS"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="61dp"
+        android:text="REMOVE LAST 5 USERS"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textCount"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonAddMore"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="54dp"
+        android:text="Total users: 0" />
+
+</RelativeLayout>
