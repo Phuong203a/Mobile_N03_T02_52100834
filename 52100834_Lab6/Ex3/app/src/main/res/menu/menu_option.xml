@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miAdd"
+        android:title="Add"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_input_add"/>
+
+    <item
+        android:id="@+id/miSwitch"
+        android:title=""
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/miDeleteAll"
+        android:title="Remove All"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/miAbout"
+        android:title="About"
+        app:showAsAction="collapseActionView"/>
+</menu>
